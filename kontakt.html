@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nazwa Twojej Strony</title>
+    <link rel="stylesheet" href="style.css">
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>Informator kulturalny - Kontakt</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="kontakt.html">Kontakt</a>
+    </nav>
+
+    <main>
+        <section id="contact">
+            <div class="container">
+                <h2>Kontakt</h2>
+                <p>Jeśli chciałbyś/chciałabyś, żeby jakieś wydarzenie znalazło się w marcowej edycji "Informatora kulturalnego", skontaktuj się z nami za pomocą formularza kontaktowego!</p>
+                <form>
+                    Twój adres mail: <input type="text" autofocus required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" placeholder="twój email"/><br><br>
+                    Temat wiadomości:
+                    <select name="TYP">
+                        <option value="wystawa">WYSTAWA</option>
+                        <option value="przedstawienie">PRZEDSTAWIENIE</option>
+                        <option value="kino">KINO</option>
+                        <option value="koncert">KONCERT</option>
+                        <option value="inne">INNE</option>
+                    </select><br><br>
+                    <textarea rows="3" placeholder="twoje propozycje" style="box-shadow: 2px 2px 7px 1px #B3003B"></textarea><br>
+                    <input type="submit" value="Prześlij nam wiadomość!❤">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div></div>
+        <p>© 2024 autorka: Jagoda Kurosad</p>
+        <div class="zegar"></div>
+    </footer>
+
+    <script src="zegar.js"></script>    
+</body>
+</html>

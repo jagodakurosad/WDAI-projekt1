@@ -1,0 +1,316 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FAF3E0; /* Kolor tła */
+    color: #333333; /* Kolor tekstu */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #920431;
+    background-image: url("foldernazdjecia/kurtyna2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:0;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    font-weight: 600;
+    font-style: italic;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em; 
+    font-weight: 400;
+    font-style: italic;
+}
+
+nav {
+    background-color: #eba700;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #333333; 
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+article {
+    border-top: 1px solid black;
+}
+
+.videoo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.smalltitles {
+    color: #920431;
+    font-family: 'Fairplay Display';
+    font-size: 2em;
+    font-weight: 600;
+    text-align: center;
+}
+
+footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.zegar {
+    margin-right: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+input[type="text"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+}
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+/* Styl dla przycisku wysyłania */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #B3003B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+    background-color: #CE5937;
+}
+
+.containeer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.obrazek {
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.obrazek img {
+    /* width: 100%; */
+    height: 50vh;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.obrazek:hover {
+    transform: scale(1.05);
+}
+
+.podpisobrazek {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #333333;
+    word-wrap: break-word;
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: #eba700;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+input[type="text"], textarea, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+}
+textarea {
+    height: 100px; /* Spójna wysokość dla tekstu */
+    resize: vertical; /* Pozwól użytkownikowi zmieniać tylko wysokość */
+}
+
+/* Styl dla przycisku wysyłania */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #B3003B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+    background-color: #CE5937;
+}
+
+video {
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+}
+
+#contact .container {
+    width: 60%;
+}
+
+#contact p {
+    text-align: justify;
+}
+
+.home {
+    text-align: justify;
+}
+
+.headerl {
+    margin-bottom: 10px;
+    color:#920431;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: start;
+}
+
+.headerp {
+    margin-bottom: 10px;
+    color:#920431;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align:end;
+}
+
+.informations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 0px;
+}
+
+
+.infol {
+    margin-right: 60px;
+    flex: 1;
+    max-width: 50%;
+    text-align: justify;
+}
+
+.infor {
+    margin-left: 60px;
+    flex: 1;
+    max-width: 50%;
+    text-align: justify;
+}
+
+.photo {
+    height: auto;
+    width: 100%;
+    flex: 1;
+    max-width: 30%;
+}
+.photo img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    align-items: flex-start;
+}
+
+h3.homee {
+    font-family: 'Playfair Display' !important;
+    font-size: 2.5em !important;
+    font-weight: 400 !important;
+    font-style: italic !important;
+    color:#eba700 !important;
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .obrazek {
+        width: 80%;
+        height: auto;
+    }
+
+    .obrazek img {
+        height: auto;
+        width: 100%;
+    }
+
+    #contact .container {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .left {
+        flex-direction: column ;
+        
+    }
+    .right {
+        flex-direction: column-reverse;
+    }
+
+    .infol, .infor, .photo {
+        max-width: 100%;
+        width: 100%;
+        margin: 20px 0;
+    }
+}
