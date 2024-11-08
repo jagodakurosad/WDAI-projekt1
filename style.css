@@ -4,8 +4,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #FAF3E0; /* Kolor tła */
-    color: #333333; /* Kolor tekstu */
+    background-color: #FAF3E0;
+    color: #333333;
     margin: 0;
     padding: 0;
 }
@@ -110,7 +110,7 @@ textarea {
     resize: vertical;
 }
 
-/* Styl dla przycisku wysyłania */
+
 input[type="submit"] {
     width: 100%;
     padding: 10px;
@@ -145,7 +145,6 @@ input[type="submit"]:hover {
 }
 
 .obrazek img {
-    /* width: 100%; */
     height: 50vh;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -177,11 +176,10 @@ input[type="text"], textarea, select {
     font-size: 1em;
 }
 textarea {
-    height: 100px; /* Spójna wysokość dla tekstu */
-    resize: vertical; /* Pozwól użytkownikowi zmieniać tylko wysokość */
+    height: 100px;
+    resize: vertical;
 }
 
-/* Styl dla przycisku wysyłania */
 input[type="submit"] {
     width: 100%;
     padding: 10px;
