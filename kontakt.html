@@ -29,17 +29,17 @@
             <div class="container">
                 <h2>Kontakt</h2>
                 <p>Jeśli chciałbyś/chciałabyś, żeby jakieś wydarzenie znalazło się w marcowej edycji "Informatora kulturalnego", skontaktuj się z nami za pomocą formularza kontaktowego!</p>
-                <form>
-                    Twój adres mail: <input type="text" autofocus required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" placeholder="twój email"/><br><br>
+                <form class="formularzkontaktowy">
+                    Twój adres mail: <input class="mail" type="text" autofocus required pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" placeholder="twój email"/><br><br>
                     Temat wiadomości:
-                    <select name="TYP">
-                        <option value="wystawa">WYSTAWA</option>
-                        <option value="przedstawienie">PRZEDSTAWIENIE</option>
-                        <option value="kino">KINO</option>
-                        <option value="koncert">KONCERT</option>
-                        <option value="inne">INNE</option>
+                    <select class="wybierz" name="TYP">
+                        <option value="0">WYSTAWA</option>
+                        <option value="1">PRZEDSTAWIENIE</option>
+                        <option value="2">KINO</option>
+                        <option value="3">KONCERT</option>
+                        <option value="4">INNE</option>
                     </select><br><br>
-                    <textarea rows="3" placeholder="twoje propozycje" style="box-shadow: 2px 2px 7px 1px #B3003B"></textarea><br>
+                    <textarea class="uwagi" rows="3" placeholder="twoje propozycje"></textarea><br>
                     <input type="submit" value="Prześlij nam wiadomość!❤">
                 </form>
             </div>
@@ -52,6 +52,7 @@
         <div class="zegar"></div>
     </footer>
 
-    <script src="zegar.js"></script>    
+    <script src="zegar.js"></script>
+    <script src="cookies.js"></script>    
 </body>
 </html>
